@@ -1,3 +1,4 @@
+// Package twofer explains how the sharing will be done.
 package twofer
 
 import (
@@ -5,6 +6,7 @@ import (
 	"strings"
 )
 
+// ShareWith prints the logistics of the sharing.
 func ShareWith(name string) string {
 	name = strings.Trim(name, " ")
 
